@@ -1,0 +1,609 @@
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.7em;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+      }
+	  
+#templatemo_wrapper {
+	width: 961px;
+	
+}
+
+#templatemo_wrapper2 {
+	width: 1600px;
+	
+}
+
+
+#templatemo_cabezera_1 {
+
+	width: 961px;
+	height: 30px;
+	background: url(images/Busqueda.jpg) no-repeat;
+}
+
+/*
+#logo
+{ width: 961px;
+  height: 30px;
+  border-top: 1px solid #F2F2F0;
+  background: #444 url(Busqueda.jpg) no-repeat left center;
+  color: #FFF;
+  
+  }
+
+*/
+#templatemo_cabezera_2 {
+
+	width: 961px;
+	height: 125px;
+	
+	background: url(../../../Plantilla_Base/Presentacion/Img/encabezado2016.jpg) no-repeat;
+}
+
+/*
+#encabezado
+{ width: 961px;
+  height: 125px;
+  border-top: 1px solid #F2F2F0;
+  background: #444 url(Encabezado.jpg) no-repeat left center;
+  color: #FFF;
+  
+  }*/
+
+#templatemo_cabezera_3 {
+
+	width: 961px;
+	height: 40px;
+		background: url(images/index2012_r5_c2.jpg) no-repeat;
+}
+
+#templatemo_header {
+	width: 961px;
+	height: 20px;
+	
+	background: url(images/index2012_r23_c7.jpg);
+	margin-top: 25px;	
+	}
+
+
+#templatemo_header_1 {
+	width: 961px;
+	height: 2040px;	
+	/*background: url(images/index2012_r23_c6.jpg) repeat-y;	*/
+
+	}
+
+#templatemo_header_1_end {
+	width: 961px;
+	height: 18px;
+	position: relative;
+	background: url(images/index2012_r23_c8.jpg);	
+
+	}
+
+
+#templatemo_header_2 {
+	width: 200px;
+	height: 460px;
+	float: left;	
+	margin-left: 50px;
+	margin-right: 0px;
+	margin-bottom: 25px;
+
+}
+
+#templatemo_header_3_start {
+	width: 960px;
+	height: 20px;
+	position: relative;
+	background: url(images/index2012_r23_c9.jpg);
+
+	
+	                        }
+	                        
+							
+  #templatemo_header_3_start2 {
+	width: 960px;
+	height: 20px;
+	position: relative;
+	background: url(images/index2012_r23_c92.jpg);
+
+	
+	                        }
+							
+							
+#templatemo_header_3_info {
+	width: 960px;
+	height: 2050px;
+	position: relative;
+	background: url(images/index2012_r23_c10.jpg) repeat-y;
+	color: #000;
+ }
+ 
+ #templatemo_header_3_info2 {
+	width: 960px;
+	height: 835px;
+	position: relative;
+	color: #00F;
+ }
+ 
+							
+	                        
+							
+#templatemo_header_3_cancelar {
+	width: 685px;
+	height: 280px;
+	position: relative;
+	background: url(images/index2012_r23_c10.jpg) repeat-y;	
+	
+	                        }							
+							
+							
+							
+#templatemo_header_3_end {
+	width: 960px;
+	height: 20px;
+	position: relative;
+	background: url(images/index2012_r23_c11.jpg) repeat-y;	
+	
+	                        }
+
+
+#templatemo_header_3 {
+	width: 685px;
+	height: 460px;
+	float: left;	
+	margin-right: 25px;
+	margin-bottom: 25px;
+
+}
+
+#templatemo_header_4 {
+	width: 960px;
+	height: 210px;
+	margin-top: 25px;
+	background: url(images/piepagina.jpg);	
+}
+
+
+#slider {
+	width: 961px;
+	height: 310px; 
+	
+}
+
+
+#templatemo_menu {
+	float: left;
+	height: 37px;
+}
+
+#templatemo_menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#templatemo_menu ul li {
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+
+#templatemo_menu ul li a {
+	float: left;
+	display: block;
+	height: 37px;
+	width: 125px;
+	margin: 0;
+	padding: 8px 0 0 0;
+	text-align: center;
+	font-size: 16px;
+	text-decoration: none;
+	color: #FFF;
+	outline: none;
+	border: none;	
+}
+
+#templatemo_menu li a:hover, #templatemo_menu li .current {
+	color: #333333;
+	background: url(images/templatemo_menu_hover.png) no-repeat top;
+}
+
+#F_vinculos{
+	font:ariaArial, Helvetica, sans-serif;
+	font-size:13px;
+	
+}
+#F_PiePag{
+	font:ariaArial, Helvetica, sans-serif;
+	font-size:11px;
+		
+	}
+#F_PiePag1{
+	font:ariaArial, Helvetica, sans-serif;
+	font-size:9px;
+		
+	}
+#F_Encabezado{
+	font:ariaArial, Helvetica, sans-serif;
+	font-size:18px;
+	color: #CCC;
+		
+	}
+
+							
+
+.button, .button:visited { /* botones genéricos */
+background: #222 url(http://sites.google.com/site/zavaletaster/Home/overlay.png) repeat-x;
+display: inline-block;
+padding: 5px 10px 6px;
+color: #FFF;
+text-decoration: none;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+border-top: 0px;
+border-left: 0px;
+border-right: 0px;
+border-bottom: 1px solid rgba(0,0,0,0.25);
+position: relative;
+cursor:pointer;
+}
+
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+border: none;
+}
+
+.button, .button:visited,.medium.button, .medium.button:visited {
+font-size: 13px;
+font-weight: bold;
+line-height: 1;
+text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+}
+
+.large.button, .large.button:visited {
+font-size:14px;
+padding: 8px 14px 9px;
+}
+
+.button:hover { /* el efecto hover */
+background-color: #111
+color: #FFF;
+}
+
+.button:active{ /* el efecto click */
+top: 1px;
+}
+
+.red.button, .red.button:visited { background-color: #E62727; }
+.red.button:hover{ background-color: #CF2525; }
+
+#sesion{
+	width: 449px;
+	height: 350px;
+	position: relative;	
+	margin-left: 125px;
+	background: url(images/sesion.jpg) no-repeat;
+	}
+
+#ayuda{
+	width: 525px;
+	height: 252px;
+	position: relative;	
+	margin-left: 85px;
+	background: url(images/ayuda.jpg) no-repeat;
+	}
+
+#admin{
+	width: 574px;
+	height: 558px;
+	position: relative;	
+	margin-left: 50px;	
+	background: url(images/admin.jpg) no-repeat;
+	}
+
+#registro_usuarios{
+	width: 546px;
+	height: 412px;
+	position: relative;	
+	margin-left: 65px;	
+	background: url(images/registro_usuarios.jpg) no-repeat;
+	}
+#cambiar_password{
+	width: 546px;
+	height: 412px;
+	position: relative;	
+	margin-left: 65px;	
+	background: url(images/cambiar_password.jpg) no-repeat;
+	}
+#restablecer_password{
+	width: 546px;
+	height: 412px;
+	position: relative;	
+	margin-left: 65px;	
+	background: url(images/restablecer_password.jpg) no-repeat;
+	}
+
+#habilitar_desabilitar{
+	width: 562px;
+	height: 209px;
+	position: relative;	
+	margin-left: 60px;	
+	background: url(images/habilitar_desabilitar.jpg) no-repeat;
+	}
+
+	
+#bienvenida{
+	color:#A80000;
+	font-size:28px;	
+	
+	}
+	
+#planificacion_ejecucion{
+	width: 670px;
+	height: 266px;
+	position: relative;	
+	margin-left: 6px;
+	background: url(images/planificacion-ejecucion.jpg) no-repeat;
+	}
+	
+#templatemo_header_1_formulario1 {
+	width: 961px;
+	height: 1750px;	
+	background: url(images/index2012_r23_c6.jpg) repeat-y;	
+
+	}
+	
+#templatemo_header_3_info_formulario1 {
+	width: 685px;
+	height: 2700px;
+	position: relative;
+	background: url(images/index2012_r23_c10.jpg) repeat-y;	
+	
+	                        }
+
+#templatemo_header_1_admin {
+	width: 961px;
+	height: 670px;	
+	background: url(images/index2012_r23_c6.jpg) repeat-y;	
+
+	}
+	
+#templatemo_header_3_info_admin {
+	width: 685px;
+	height: 620px;
+	position: relative;
+	background: url(images/index2012_r23_c10.jpg) repeat-y;	
+	
+	                        }
+
+	
+#textarea {
+
+   border-radius: 5px; 
+   -moz-border-radius: 5px; 
+   -webkit-border-radius: 5px;
+   -moz-box-shadow: 0px 1px 0px #f2f2f2;
+   -webkit-box-shadow: 0px 1px 0px #f2f2f2;
+   resize:none;
+   }
+   
+textarea::-webkit-input-placeholder  {
+   color: #ddd; 
+   text-shadow: 0px -1px 0px #38506b; 
+   text-transform:capitalize;
+   }
+
+textarea:-moz-placeholder {
+   color: #ddd; text-shadow: 0px -1px 0px #38506b; 
+   text-transform:capitalize;
+   }
+   
+#templatemo_header_activ {
+	width: 961px;
+	height: 670px;	
+	background: url(images/index2012_r23_c6.jpg) repeat-y;	
+
+	}
+#templatemo_header_3_info1 {
+	width: 685px;
+	height: 720px;
+	position: relative;
+	background: url(images/index2012_r23_c10.jpg) repeat-y;	
+	
+	}
+#activar{
+	width: 555px;
+	height: 576px;
+	position: relative;	
+	margin-left: 85px;
+	background: url(images/activar.png) no-repeat;
+	}
+#desactivar{
+	width: 555px;
+	height: 576px;
+	position: relative;	
+	margin-left: 85px;
+	background: url(images/desactivar.png) no-repeat;
+	}
+
+#upz{
+	width: 547px;
+	height: 393px;
+	position: relative;	
+	margin-left: 75px;
+	background: url(images/upz.jpg) no-repeat;
+	}
+
+#ejecucion{
+	width: 664px;
+	height: 646px;
+	position: relative;	
+	margin-left: 5px;
+	background: url(images/ejecucion.jpg) no-repeat;
+	}
+
+#no_conforme{
+	width: 664px;
+	height: 491px;
+	position: relative;	
+	margin-left: 5px;
+	background: url(images/no_conforme.jpg) no-repeat;
+	}
+	
+#menueventos{
+	width: 500px;
+	height: 409px;
+	position: relative;	
+	margin-left: 60px;	
+	background: url(images/even.png) no-repeat;
+	}
+#gridactiv{
+	width: 555px;
+	height: 576px;
+	position: relative;
+	margin-left: 85px;
+	background: url(images/gridactiv.png) no-repeat;
+	background-image: url(images/index2012_r2_c2.jpg);
+	}
+#mmonitor{
+	width: 600px;
+	height: 409px;
+	position: relative;	
+	margin-left: 60px;	
+	background: url(images/menumonitor.png) no-repeat;
+	}
+#mcordi{
+	width: 600px;
+	height: 409px;
+	position: relative;	
+	margin-left: 60px;	
+	background: url(images/menucordi.png) no-repeat;
+	}
+#mlogistico{
+	width: 600px;
+	height: 409px;
+	position: relative;	
+	margin-left: 60px;	
+	background: url(images/menulogistico.png) no-repeat;
+	}
+#mtecnico{
+	width: 600px;
+	height: 409px;
+	position: relative;	
+	margin-left: 60px;	
+	background: url(images/menutecnico.png) no-repeat;
+	}
+#grideven{
+	width: 555px;
+	height: 576px;
+	position: relative;	
+	margin-left: 85px;
+	background: url(images/grideven.png) no-repeat;
+	}
+#menuejecucion{
+	width: 500px;
+	height: 409px;
+	position: relative;	
+	margin-left: 60px;	
+	background: url(images/ejecu.png) no-repeat;
+	}
+#gridejecucion{
+	width: 639px;
+	height: 576px;
+	position: relative;
+	margin-left: 10px;
+	background: url(images/fejecucion.png) no-repeat;
+	background-image: url(images/FondoHiperling.PNG);
+	}
+#menusolicitudes{
+	width: 500px;
+	height: 570px;
+	position: relative;	
+	margin-left: 60px;	
+	background: url(images/menusolicitudes.png) no-repeat;
+	}
+#templatemo_header_1_2 {
+	width: 961px;
+	height: 620px;	
+	background: url(images/index2012_r23_c6.jpg) repeat-y;	
+
+	}
+							
+#templatemo_header_3_info2 {
+	width: 685px;
+	height: 770px;
+	position: relative;
+	background: url(images/index2012_r23_c10.jpg) repeat-y;	
+	
+	                        }
+							
+#templatemo_header_1_formulario5 {
+	width: 961px;
+	height: 3100px;	
+	background: url(images/index2012_r23_c6.jpg) repeat-y;	
+
+	}
+	
+#templatemo_header_3_info_formulario5 {
+	width: 685px;
+	height: 3050px;
+	position: relative;
+	background: url(images/index2012_r23_c10.jpg) repeat-y;	
+	
+	                        }
+#gridfinalizadas{
+	width: 639px;
+	height: 576px;
+	position: relative;	
+	margin-left: 10px;
+	background: url(images/finalizadas.png) no-repeat;
+	}
+							
+#gridreportes{
+	width: 639px;
+	height: 576px;
+	position: relative;
+	margin-left: 10px;
+	background: url(images/reportes.png) no-repeat;
+	}
+
+
+#templatemo_header_1_formulario1_reporte {
+	width: 961px;
+	height: 1050px;	
+	background: url(images/index2012_r23_c6.jpg) repeat-y;	
+
+	}
+	
+#templatemo_header_3_info_formulario1_reporte {
+	width: 685px;
+	height: 1000px;
+	position: relative;
+	background: url(images/index2012_r23_c10.jpg) repeat-y;	
+	
+	                        }
+				
+				
+				
+#templatemo_header_3_2 {
+	width: 960px;
+	height: 460px;
+	float: left;	
+	margin-right: 25px;
+	margin-bottom: 25px;
+
+}				
+				
+				
+								
